@@ -12,8 +12,6 @@ class CalculatorViewController: UIViewController {
     
 //navigationController?.navigationBar.barTintColor = UIColor.black
 
-
-
     @IBOutlet weak var visorButton: UITextField! // .text = string
     var firstNumber: Double = 0 //double
     var operation = ""
@@ -21,6 +19,7 @@ class CalculatorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       title = "Calculadora"
         
         navigationController?.navigationBar.barTintColor = UIColor.black
         // Do any additional setup after loading the view.
@@ -55,10 +54,7 @@ class CalculatorViewController: UIViewController {
     func converterDoubleParaString(value: Double) -> String {
         return "\(value)"
     }
-    func converterStringParaInt(result: String) -> Int {
-        return result
-        
-    }
+ 
     
     @IBAction func PercentButton(_ sender: Any) {
     firstNumber = converterStringParaDouble()

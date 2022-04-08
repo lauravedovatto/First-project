@@ -16,6 +16,7 @@
 		BC5CD97027FA76160069C638 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD96F27FA76160069C638 /* HomeViewController.swift */; };
 		BC5CD97227FA85A20069C638 /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD97127FA85A20069C638 /* SumViewController.swift */; };
 		BC5CD97427FABA640069C638 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD97327FABA640069C638 /* CalculatorViewController.swift */; };
+		BC5CD97627FFBD9F0069C638 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5CD97527FFBD9F0069C638 /* TableViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BC5CD96F27FA76160069C638 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BC5CD97127FA85A20069C638 /* SumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
 		BC5CD97327FABA640069C638 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		BC5CD97527FFBD9F0069C638 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				BC5CD97127FA85A20069C638 /* SumViewController.swift */,
 				BC5CD96D27FA727D0069C638 /* ArrivedViewController.swift */,
 				BC5CD97327FABA640069C638 /* CalculatorViewController.swift */,
+				BC5CD97527FFBD9F0069C638 /* TableViewViewController.swift */,
 				BC5CD95F27FA54220069C638 /* Main.storyboard */,
 				BC5CD96227FA54240069C638 /* Assets.xcassets */,
 				BC5CD96427FA54240069C638 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				BC5CD97027FA76160069C638 /* HomeViewController.swift in Sources */,
 				BC5CD97427FABA640069C638 /* CalculatorViewController.swift in Sources */,
 				BC5CD97227FA85A20069C638 /* SumViewController.swift in Sources */,
+				BC5CD97627FFBD9F0069C638 /* TableViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
